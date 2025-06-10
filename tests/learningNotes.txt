@@ -1,0 +1,14 @@
+playwright.config.js - = test runner
+
+different test files execute in paralell
+but tests withing the same file execute one by one 
+
+to start tests: 
+1. open cmd
+2. cd to your project folder 
+3. npx playwright test
+
+    // playwright supporting css and xpath selectors
+    // css selector is a string that starts with # for id or . for class
+    // xpath selector is a string that starts with // for any element or / for direct child
+
